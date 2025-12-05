@@ -1,1 +1,1 @@
-console ("oioi")
+console.log ("oioi")
