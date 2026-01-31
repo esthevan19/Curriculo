@@ -15,7 +15,7 @@
         
         body {
             font-family: 'Poppins', sans-serif;
-            background: linear-gradient(135deg, #2c46bb 0%, #0026ff 100%);
+            background: linear-gradient(135deg, #2c46bb 0%, #092bf0 100%);
             min-height: 100vh;
             padding: 40px 20px;
             color: #333;
@@ -57,6 +57,28 @@
         header p {
             font-size: 1.4rem;
             opacity: 0.9;
+            margin-bottom: 25px;
+        }
+
+        /* Botão Senac */
+        .btn-senac {
+            background-color: #ffffff;
+            color: #0077ff;
+            font-weight: 600;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-senac:hover {
+            background-color: #0077ff;
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 119, 255, 0.3);
         }
         
         .content {
@@ -129,6 +151,11 @@
             <img class="profile-photo" src="https://img.redbull.com/images/c_crop,x_1346,y_0,h_2133,w_1599/c_fill,w_450,h_600/q_auto,f_auto/redbullcom/2020/1/7/cpvoh0cnzs1irdllacqm/futebol-neymar-jr-2019" alt="Foto de Esthevan Jose dos Santos da Silva">
             <h1>Esthevan Jose dos Santos da Silva</h1>
             <p>Desenvolvedor | Entusiasta de Tecnologia | Brasil</p>
+            
+            <!-- Botão Senac -->
+            <button class="btn-senac" onclick="window.open('https://www.senacrs.com.br/home', '_blank')">
+                Visitar site do Senac RS
+            </button>
         </header>
         
         <div class="content">
